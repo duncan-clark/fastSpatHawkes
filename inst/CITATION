@@ -1,0 +1,14 @@
+citHeader("Please cite the fastSpatHawkes package in publications using the following:")
+
+citEntry(
+  entry         = "Manual",
+  title         = "fastSpatHawkes: An R Package for Fitting Spatiotemporal Hawkes Processes",
+  author        = person(given = "Duncan A.", family = "Clark"), person(given = "Conor", family = "Kresin"),
+  year          = "2025",
+  url           = "https://github.com/duncan-clark/fastSpatHawkes",
+  textVersion   = "
+    Clark, Duncan A., Kresin, Conor (2025).
+    fastSpatHawkes: An R Package for Fitting Spatiotemporal Hawkes Processes.
+    R package. https://github.com/duncan-clark/fastSpatHawkes
+  "
+)
