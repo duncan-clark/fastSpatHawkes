@@ -13,7 +13,7 @@ library(doParallel)
 # speed check on optimization
 
 PARAMS <- list(mu = 5,alpha = 1.5,beta = 10,K = .75)
-TIME<- 50
+TIME<- 200
 OMEGA <- c(0,10^2,0,10^2)
 N_CORES = 7
 N = N_CORES*1
