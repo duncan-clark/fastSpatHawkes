@@ -154,6 +154,8 @@ loglik_hawk = function(params,
       stop("kernel function must take in both time and space distances as wells as beta and alpha params")
     }
     kernel_mat <- kernel(time_dist,space_dist,beta,alpha)
+    # for numerical stability
+    kernel_mat[upper.tri(kernel_mat, diag = FALSE)] <- 0
     nzbg <- 1 - in_zero_background
     # for row column j sum across columns up to j - 1
     gij_vec <- rowSums(

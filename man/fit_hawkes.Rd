@@ -9,7 +9,7 @@ fit_hawkes(
   realiz,
   windowT,
   windowS,
-  maxit,
+  maxit = 1000,
   exponential_kernel = TRUE,
   kernel = NULL,
   optimized = TRUE,
